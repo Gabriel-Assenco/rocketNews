@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family= League+ Spartan :wght@200;400 & family= Poppins:wght@200;300;400 & display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'League Spartan', sans-serif;
+    font-family: 'Poppins', sans-serif ;
+}
+
+  body{
+    display: flex;
+    flex-direction: row;
+
+  }
+
+  .main{
+    background-color: black;
+    width: 50vw;
+    color: white;
+  }
+
+  .main h2{
+    font-size: 25px;
+    margin: 50px;
+    color: #04D361;
+  }
+
+  .main p{
+    margin: 20px;
+    font-size: 20px;
+    font-weight: 400;
+  }
+
+
+
+  .main img{
+    padding: 10px;
+    height: 100px;
+    margin: 10px;
+  }
+
+  .main span{
+    color: gray;
+    margin: 15px 15px;
+  }
+
+.img img{
+    width: 50vw;
+    height: 99vh;
+}
+
+.email{
+    margin-left: 15px;
+    width: 700px;
+    padding: 15px;
+    border: none;
+}
+
+
+.envio{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+}
+
+.bt{
+    display: flex;
+    background-image: url(send.svg);
+    background-repeat: no-repeat;
+    width: 50px;
+    background-position: center;
+    background-color: blueviolet;
+    border: none;
+}
